@@ -1,0 +1,39 @@
+body {
+    background: pink;
+    background-image: url('https://www.floraqueen.com/blog/wp-content/uploads/2017/11/Untitled-design-3-1.jpg');
+    background-size: 100vh;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: white; 
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color: whitesmoke;
+    text-align: center
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
+  
